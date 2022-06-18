@@ -1,13 +1,120 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+  margin: 0px;
+  padding: 0px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.wrapper{
+  margin-top: 10px;
+  margin-left: 100px;
+  overflow: hidden;
+  overflow-y: auto;
+}
+.wrapper h1{
+  margin-top: 30px;
+  text-align: center;
+
+}
+.wrapper p{
+  text-align: center;
+}
+.wrapper main{
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.wrapper .form-container{
+  padding-left: 20px;
+  width: 600px;
+  height: 500px;
+  background-color: olive;
+  margin: 90px;
+}
+.wrapper .form-container .btn{
+  width: 100px;
+}
+.wrapper .view-container{
+  width: 600px;
+  background-color: olive;
+  margin-left: 900px;
+  margin-top: -500px;
+  margin-bottom: 440px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+input{
+ width: 570px;
+ margin-top: 10px;
+ margin-bottom: 30px;
+ margin-right: 10px;
+ padding-top: 30px;
+ padding-right: 10px;
+ font-size: medium;
+ border-color: 3px azure;
+}
+ label {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: larger;
+ }
+
+ h1 {
+  font-family: fantasy;
+ }
+
+.delete-btn{
+  color: red;
+  cursor: pointer;
+}
+
+
+tbody {
+  margin-top: 25px;
+}
+
+.btn {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.btn-danger  {
+color:orange;
+padding: 5px;
+font-size: medium;
+border-radius: 10px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+th {
+  flex-direction: row;
+  padding-left: 70px;
+  text-transform: uppercase;
+}
+.table-responsive {
+  color: black;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+.table{
+display: table;
+padding-left: 60px;
+padding-top: 10px;
+padding-bottom: 0px;
+
+
+}
+.sam{
+  flex-direction: row;
+  margin-left: 30px;
+  margin-right: 20px;
+  background-color: azure;
+
+}
+td{
+  padding: 10px;
+  width: 5px;
+  border-spacing: 10px;
+  border-collapse: separate;
+  font-size: large;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
